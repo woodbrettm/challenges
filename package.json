@@ -1,0 +1,22 @@
+{
+  "name": "challenges",
+  "repository": "https://github.com/woodbrettm/challenges.git",
+  "author": "Brett Wood <brett@woodbrettm.com>",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "eslint 'challenges/**/*.js' --no-error-on-unmatched-pattern",
+    "test": "jest -c jest.config.js",
+    "preinstall": "git config core.hooksPath githooks"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-node": "^0.3.4",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^27.0.6"
+  }
+}

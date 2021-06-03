@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+echo "Running Pre-Commit Hook"
+yarn lint
