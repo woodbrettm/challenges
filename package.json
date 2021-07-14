@@ -2,7 +2,7 @@
   "name": "challenges",
   "repository": "https://github.com/woodbrettm/challenges.git",
   "author": "Brett Wood <brett@woodbrettm.com>",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "private": true,
   "scripts": {
