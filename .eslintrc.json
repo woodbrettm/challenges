@@ -17,7 +17,7 @@
     "airbnb-base",
     "plugin:import/recommended",
     "plugin:jest/recommended",
-    "plugin:node/recommended-script"
+    "plugin:node/recommended"
   ],
   "env": {
     "es6": true,
@@ -25,6 +25,8 @@
     "jest": true
   },
   "rules": {
-    "padded-blocks": "off"
+    "padded-blocks": "off",
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
+    "no-console": "off"
   }
 }
