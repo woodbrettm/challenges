@@ -1,4 +1,4 @@
-const { fib } = require('./index');
+import fib from './fib';
 
 describe('Test fib function', () => {
 
