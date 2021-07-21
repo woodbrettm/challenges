@@ -2,9 +2,10 @@
   "name": "challenges",
   "repository": "https://github.com/woodbrettm/challenges.git",
   "author": "Brett Wood <brett@woodbrettm.com>",
-  "version": "0.1.1",
+  "version": "0.2.1",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
     "lint": "eslint 'challenges/**/*.js' --no-error-on-unmatched-pattern",
     "test": "jest -c jest.config.js",
@@ -17,7 +18,8 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jest": "^24.3.6",
     "eslint-plugin-node": "^11.1.0",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "jest-esm-transformer": "^1.0.0"
   },
   "engines": {
     "node": ">=15.0.0"
