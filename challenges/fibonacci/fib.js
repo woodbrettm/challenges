@@ -15,6 +15,4 @@ const fib = (index) => {
 
 };
 
-module.exports = {
-  fib,
-};
+export default fib;
