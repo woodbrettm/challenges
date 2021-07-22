@@ -1,15 +1,16 @@
 {
   "name": "challenges",
   "repository": "https://github.com/woodbrettm/challenges.git",
+  "homepage": "https://github.com/woodbrettm/challenges.git",
   "author": "Brett Wood <brett@woodbrettm.com>",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "private": true,
   "type": "module",
   "scripts": {
     "lint": "eslint 'challenges/**/*.js' --no-error-on-unmatched-pattern",
     "test": "jest -c jest.config.js",
-    "preinstall": "git config core.hooksPath githooks"
+    "hooks": "git config core.hooksPath githooks"
   },
   "devDependencies": {
     "eslint": "^7.30.0",
@@ -22,6 +23,6 @@
     "jest-esm-transformer": "^1.0.0"
   },
   "engines": {
-    "node": ">=15.0.0"
+    "node": ">=14.0.0"
   }
 }
