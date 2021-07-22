@@ -44,6 +44,17 @@ challenges/
         index.test.js
 ```
 
+### ESLint VSCode
+
+When opening a JS file in VSCode, check the VSCode Output Panel with ESLint selected in the dropdown. Ensure it's showing something similar to the output below.
+
+I noticed VSCode can be a bit finnicky at times with ESLint when using Yarn PnP (even with the yarn vscode sdk installed). If the output isn't loading from `.yarn`, try closing and opening vscode, or re-importing the project. 
+
+```bash
+# Make sure ESLint shows this in VSCode output panel
+ESLint Library loaded from: somepath\.yarn\sdks\eslint\lib\api.js
+```
+
 ### Running Tests
 ```bash
 yarn test # Jest Unit Tests
