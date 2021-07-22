@@ -29,7 +29,7 @@ git init
 
 If you don't have yarn installed globally, run `npm install -g yarn`. Once complete, you're able to run commands from the `package.json` file immediately.
 
-To ensure the git hooks are properly installed, run: `yarn install`.
+To ensure the git hooks are properly installed, run: `yarn hooks`.
 
 ### Set Up Your Challenges Folder
 
