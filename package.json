@@ -3,7 +3,7 @@
   "repository": "https://github.com/woodbrettm/challenges.git",
   "homepage": "https://github.com/woodbrettm/challenges.git",
   "author": "Brett Wood <brett@woodbrettm.com>",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "private": true,
   "type": "module",
